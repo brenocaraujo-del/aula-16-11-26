@@ -1,68 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunnyside - Parte 2</title>
+  <link href="https://googleapis.com" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
 
-  We are creatives
+  <section class="area-depoimentos">
+    <h2 class="titulo-depoimentos">CLIENT TESTIMONIALS</h2>
 
-  Transform your brand
+    <div class="clientes-container">
+      <div class="cliente">
+        <img src="images/image-emily.jpg" alt="Emily">
+        <p class="comentario">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <h4>Emily R.</h4>
+        <span>Marketing Director</span>
+      </div>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+      <div class="cliente">
+        <img src="images/image-thomas.jpg" alt="Thomas">
+        <p class="comentario">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <h4>Thomas S.</h4>
+        <span>Chief Operating Officer</span>
+      </div>
 
-  Learn more
+      <div class="cliente">
+        <img src="images/image-jennie.jpg" alt="Jennie">
+        <p class="comentario">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <h4>Jennie F.</h4>
+        <span>Business Owner</span>
+      </div>
+    </div>
+  </section>
 
-  Stand out to the right audience
+  <section class="fotos-galeria" id="projetos">
+    <img src="images/desktop/image-gallery-milkbottles.jpg" alt="leite">
+    <img src="images/desktop/image-gallery-orange.jpg" alt="laranja">
+    <img src="images/desktop/image-gallery-cone.jpg" alt="sorvete">
+    <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="açucar">
+  </section>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+  <footer class="rodape" id="contato">
+    <h2 class="logo-rodape">sunnyside</h2>
 
-  Learn more
+    <div>
+      <a href="#sobre">About</a>
+      <a href="#servicos">Services</a>
+      <a href="#projetos">Projects</a>
+    </div>
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="redes-sociais">
+      <a href="#"><img src="images/icon-facebook.svg" alt="fb"></a>
+      <a href="#"><img src="images/icon-instagram.svg" alt="ig"></a>
+      <a href="#"><img src="images/icon-twitter.svg" alt="tw"></a>
+      <a href="#"><img src="images/icon-pinterest.svg" alt="pin"></a>
+    </div>
   </footer>
+
 </body>
 </html>

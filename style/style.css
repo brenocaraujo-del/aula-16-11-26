@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #FFFBF8;
+  color: #23303E;
+}
+
+.topo {
+  background-image: url('images/desktop/image-header.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 780px; 
+  padding: 35px 45px;
+}
+
+.menu-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-texto {
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+
+.links-menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+.links-menu .botao-contato {
+  background-color: white;
+  color: #23303E;
+  font-family: 'Fraunces', serif;
+  font-size: 15px;
+  padding: 15px 28px;
+  border-radius: 25px;
+}
+
+.links-menu .botao-contato:hover {
+  background-color: #6eceff;
+  color: white;
+}
+
+.titulo-principal {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.titulo-principal h1 {
+  font-family: 'Fraunces', serif;
+  color: white;
+  font-size: 54px;
+  letter-spacing: 8px;
+  margin-bottom: 90px;
+}
+
+
+.grade-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.caixa-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.conteudo-interno {
+  max-width: 440px;
+}
+
+.conteudo-interno h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.conteudo-interno p {
+  color: #808397;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.link-saiba-mais {
+  font-family: 'Fraunces', serif;
+  color: #23303E;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 0 6px;
+}
+
+.caixa-imagem img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.servicos {
+  display: flex;
+}
+
+.card-servico {
+  width: 50%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 55px;
+  text-align: center;
+}
+
+
+.texto-sobre-foto {
+  max-width: 340px;
+}
+
+.texto-sobre-foto h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.texto-sobre-foto p {
+  font-size: 16px;
+  line-height: 1.6;
+}

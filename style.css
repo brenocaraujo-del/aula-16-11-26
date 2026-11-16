@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.area-depoimentos {
+  padding: 150px 40px;
+  text-align: center;
+}
+
+.titulo-depoimentos {
+  font-family: 'Fraunces', serif;
+  color: #A7ABAE;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-bottom: 80px;
+}
+
+.clientes-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.cliente {
+  width: 31%; 
+}
+
+.cliente img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.cliente .comentario {
+  color: #5A636C;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 60px;
+}
+
+.cliente h4 {
+  font-family: 'Fraunces', serif;
+  color: #23303E;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.cliente span {
+  color: #A7ABAE;
+  font-size: 14px;
+}
+
+.fotos-galeria {
+  display: flex;
+  width: 100%;
+}
